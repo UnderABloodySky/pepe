@@ -1,0 +1,8 @@
+language: java
+jdk: openjdk14
+sudo: false
+
+cache:
+  directories:
+    - $HOME/.m2
+    - $HOME/.gradle
